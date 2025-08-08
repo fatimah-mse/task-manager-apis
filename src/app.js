@@ -27,7 +27,8 @@ app.use(limiter)
 
 const allowedOrigins = [
     "http://localhost:5173",
-    "http://localhost:4000"
+    "http://localhost:4000",
+    "https://task-manager-apis-t2dp.onrender.com"
 ]
 
 app.use(cors({

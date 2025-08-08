@@ -12,7 +12,7 @@ const mongoose = require("mongoose")
 
 const io = socketIO(server, {
     cors: {
-        origin: ["http://localhost:5173"],
+        origin: ["http://localhost:5173", "https://teamio-neon.vercel.app/"],
         methods: ["GET", "POST"]
     }
 })
