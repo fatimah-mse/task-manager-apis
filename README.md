@@ -98,8 +98,8 @@ project-root/
 - title
 - description
 - dueDate
-- priority: `low` | `medium` | `high`
-- status: `todo` | `in_progress` | `done` | `blocked` | `deferred`
+- priority: `low` | `medium` | `high` | `urgent`
+- status: `pending` | `in-progress` | `completed` | `postponed`
 - assignedTo (User)
 - project (Project)
 - timestamp
