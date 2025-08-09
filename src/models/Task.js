@@ -22,7 +22,7 @@ const Task = mongoose.model("Task", new mongoose.Schema({
     },
     status: {
         type: String,
-        enum: ["pending", "in-progress", "completed", "postponed"],
+        enum: ["pending", "in progress", "completed", "postponed"],
         default: "pending"
     },
     assignedTo: {

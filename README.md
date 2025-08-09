@@ -99,7 +99,7 @@ project-root/
 - description
 - dueDate
 - priority: `low` | `medium` | `high` | `urgent`
-- status: `pending` | `in-progress` | `completed` | `postponed`
+- status: `pending` | `in progress` | `completed` | `postponed`
 - assignedTo (User)
 - project (Project)
 - timestamp
